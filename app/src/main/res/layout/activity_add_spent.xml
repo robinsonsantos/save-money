@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingEnd="32dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingStart="32dp"
+    android:paddingTop="16dp" >
+
+    <!-- Edittext for getting task description input -->
+    <EditText
+        android:id="@+id/editTextSpentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextSpentValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonAddSpent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
 
 </LinearLayout>
