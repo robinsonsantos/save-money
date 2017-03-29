@@ -11,7 +11,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SaveMoneyDbHelper  extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "savemoney.db";
-
     private static int DATABASE_VERSION = 1;
 
     public SaveMoneyDbHelper(Context context) {
